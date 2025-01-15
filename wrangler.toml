@@ -1,0 +1,35 @@
+name = "public-tools"
+main = "src/index.ts"
+
+compatibility_flags = [ "nodejs_compat" ]
+compatibility_date = "2025-01-15"
+
+routes = [
+  { pattern = "pub.reao.io", custom_domain = true }
+]
+
+[observability.logs]
+enabled = true
+
+# [vars]
+# MY_VAR = "my-variable"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+# [ai]
+# binding = "AI"
+
+# [observability]
+# enabled = true
+# head_sampling_rate = 1

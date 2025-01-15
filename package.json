@@ -1,0 +1,17 @@
+{
+  "name": "public-tools",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "hono": "^4.6.16",
+    "random-useragent": "^0.5.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250109.0",
+    "@types/random-useragent": "^0.3.3",
+    "wrangler": "^3.101.0"
+  }
+}

@@ -5,9 +5,9 @@
 ```bash
 curl --request POST \
   --url https://pub.reao.io/xhs \
-  --header 'Content-Type: application/json' \
-  --data '44 YesItsAlexx发布了一篇小红书笔记，快来看吧！ 😆 2ajW9ypREUhgazx 😆 http://xhslink.com/a/rWPdgVMXojN3，复制本条信息，打开【小红书】App查看精彩内容！'
-```
+  --header 'Content-Type: text/plain; charset=utf-8' \
+  --data '0 瑞哥英语发布了一篇小红书笔记，快来看吧！ 😆 sqRkSq3fZVTMu3x 😆 http://xhslink.com/a/jnjXB1zdPnP3，复制本条信息，打开【小红书】App查看精彩内容！'
+ ```
 
 ## Development
 
